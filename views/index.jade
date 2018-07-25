@@ -2,10 +2,10 @@ extends layout
 
 block content
   if authorised
-    p Hoşgeldiniz #{fname} | 
+    p Welcome #{fname} | 
       a(href="/exit") Log Out
     if typeof users != 'undefined'
-    p Kullanıcı listesi
+    p User list
     ul
       each user in users
         li= user.user_fname
