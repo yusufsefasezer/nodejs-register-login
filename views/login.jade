@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  form(method='POST')
+    label(for='email')
+      b Email
+    input#email(type='email', placeholder='Enter Email', name='email', required='required')
+    label(for='psw')
+      b Password
+    input#psw(type='password', placeholder='Enter Password', name='psw', required='required')
+    button(type='submit') Login
+    p Don't have an account yet? 
+      a(href='/register') Register

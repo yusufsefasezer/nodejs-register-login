@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  if authorised
+    p Hoşgeldiniz #{fname} | 
+      a(href="/exit") Log Out
+    if typeof users != 'undefined'
+    p Kullanıcı listesi
+    ul
+      each user in users
+        li= user.user_fname
+  else
+    p Don't have an account yet? 
+      a(href='/register') Register
+    p Already have an account? 
+      a(href='/login') Login

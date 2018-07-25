@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  form(method='POST')
+    label(for='email')
+      b Email
+    input#email(type='email', placeholder='Enter Email', name='email', required='required')
+    label(for='psw')
+      b Password
+    input#psw(type='password', placeholder='Enter Password', name='psw', required='required')
+    label(for='pswrepeat')
+      b Repeat Password
+    input#pswrepeat(type='password', placeholder='Repeat Password', name='pswrepeat', required='required')
+    label(for='fname')
+      b Full Name
+    input#fname(type='text', placeholder='Enter Full Name', name='fname', required='required')
+    button(type='submit') Register
+    p Already have an account? 
+      a(href='/login') Login
