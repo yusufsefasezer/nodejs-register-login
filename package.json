@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "User registration and user login application developed with Node.js, Express.js and MySQL",
   "main": "app.js",
-  "author": "Yusuf SEZER <yusufsezer@mail.com> (http://www.yusufsezer.com/)",
+  "author": "Yusuf Sezer <yusufsezer@mail.com> (https://www.yusufsezer.com/)",
   "license": "MIT",
   "private": true,
   "keywords": [],
@@ -11,13 +11,13 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "express-session": "^1.15.6",
-    "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.0",
-    "mysql": "^2.16.0"
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "express": "~4.18.2",
+    "express-session": "~1.17.3",
+    "http-errors": "~2.0.0",
+    "pug": "~3.0.2",
+    "morgan": "~1.10.0",
+    "mysql": "^2.18.1"
   }
 }

@@ -61,6 +61,5 @@ typings/
 .next
 
 # npm
-package-lock.json
 *.log
 *.gz
